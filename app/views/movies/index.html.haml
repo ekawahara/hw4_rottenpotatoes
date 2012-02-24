@@ -1,4 +1,7 @@
 -#  This file is app/views/movies/index.html.haml
+
+= @message 
+ 
 %h1 All Movies
 
 = form_tag movies_path, :method => :get, :id => 'ratings_form' do
